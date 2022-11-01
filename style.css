@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-section {
+    background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+    height: 80vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    width: 400px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: center;
+    gap: 100px;
+}
+
+.hc-left h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.hc-left p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.cta {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.cta1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+
+.hc-img img{
+    width: 500px;
+}
+
+.headline-content-section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 36px;
+}
+
+.content-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    gap: 100px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.content img {
+    width: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.speech-section {
+    background-color: #e5e7eb;
+    margin-bottom: 100px;
+}
+
+.section-speech {
+    width: 800px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.speech {
+    color: #1f2937;
+    font-weight: 200;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.speech-speaker {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cta-section {
+    width: 1000px;
+    margin: auto;
+}
+
+.cta-flexbox {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    background-color: #3882F6;
+    justify-content: space-between;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
